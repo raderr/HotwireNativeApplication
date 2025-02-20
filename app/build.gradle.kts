@@ -36,7 +36,8 @@ android {
 }
 
 dependencies {
-
+    implementation("dev.hotwire:core:1.1.1")
+    implementation("dev.hotwire:navigation-fragments:1.1.1")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
